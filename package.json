@@ -1,0 +1,28 @@
+{
+  "name": "nyt-scraper",
+  "version": "1.0.0",
+  "description": "News scraper which pull news headlines from the New York Times which is stored in a mongo database allowing user to view and leave comments on the latest news",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASalmon/NYT-Scraper.git"
+  },
+  "author": "Alton Salmon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ASalmon/NYT-Scraper/issues"
+  },
+  "homepage": "https://github.com/ASalmon/NYT-Scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.1"
+  }
+}
